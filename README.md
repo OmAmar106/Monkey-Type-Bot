@@ -1,21 +1,21 @@
-# MonkeyType Typing Bot
+# 🐵 MonkeyType Typing Bot 🎯⌨️
 
-This Python script automates logging in and typing on [MonkeyType](https://monkeytype.com) using Playwright.
-
----
-
-## Features
-
-* Handles cookie consent popup by clicking **Reject** automatically.
-* Optional login support by entering username and password.
-* Waits for page navigation after login.
-* Types words automatically on the MonkeyType typing test.
-* Optionally limits typing speed by specifying a target word count.
-* Works in headed mode to show browser UI.
+This Python script automates logging in and typing on [MonkeyType](https://monkeytype.com) using **Playwright**. 🚀🐒
 
 ---
 
-## ScreeShots
+## ✨ Features
+
+* 🍪 Handles cookie consent popup by clicking **Reject** automatically.
+* 🔐 Optional login support by entering username and password.
+* ⏳ Waits for page navigation after login.
+* 🤖 Types words automatically during the MonkeyType typing test.
+* 🎯 Optionally limits typing speed by specifying a target word count.
+* 🖥️ Works in headed mode to show the browser UI in action.
+
+---
+
+## 📸 Screenshots
 
 ![Screenshot from 2025-05-19 15-12-12](https://github.com/user-attachments/assets/676778e6-c613-4910-b5ad-26c6d76e93f4)
 
@@ -25,49 +25,57 @@ After Setting the Typing Speed:
 
 ---
 
-## Requirements
+## 🛠️ Requirements
 
-* Python 3.7+
-* Playwright Python package
+* 🐍 Python 3.7+
+* 🎭 Playwright Python package
 
 ---
 
-## Installation
+## 📥 Installation
 
 1. Install Playwright and its browsers:
 
-```bash
->> pip install playwright
-```
-```bash
->> playwright install
-```
+   ```bash
+   pip install playwright
+   ```
 
-2. Save the script (e.g., `monkeytype_bot.py`).
+   ```bash
+   playwright install
+   ```
+
+2. Save the script (e.g., `monkeytype_bot.py`). 💾
 
 ---
 
-## Usage
+## ▶️ Usage
 
 Run the script:
 
 ```bash
->> python monkeytype_bot.py
+python monkeytype_bot.py
 ```
 
-* When prompted, choose whether to log in (`y` or `n`).
-* If logging in, enter your username and password.
-* Choose whether to set a particular typing speed (`y` or `n`).
-* If yes, enter the desired speed as an integer (word count target).
-* The bot will automatically type words on the page.
-* Press Enter to stop the script after the test.
+* 🤔 When prompted, choose whether to log in (`y` or `n`).
+* 📝 If logging in, enter your username and password.
+* 🎛️ Choose whether to set a particular typing speed (`y` or `n`).
+* ⌨️ If yes, enter the desired speed as an integer (word count target).
+* 🤖 The bot will automatically type words on the page.
+* ⏹️ Press Enter to stop the script after the test.
 
 ---
 
-## Notes
+## ⚠️ Notes
 
-* The script opens a Chromium browser window (not headless) so you can watch the bot.
-* Make sure your credentials are correct for login to work.
-* Typing speed control approximates the number of words typed.
-* If the Speed is too high, it will invalidate the WPM and not add it as a legit test.
+* 🖥️ The script opens a Chromium browser window (not headless) so you can watch the bot in action.
+* 🔑 Make sure your credentials are correct for login to work.
+* ⏲️ Typing speed control approximates the number of words typed.
+* ❌ If the speed is too high, it may invalidate the WPM and won’t count as a legit test.
 
+---
+
+Enjoy effortless typing practice with the MonkeyType Typing Bot! 🎉🐒⌨️
+
+---
+
+Would you like me to help with anything else?
